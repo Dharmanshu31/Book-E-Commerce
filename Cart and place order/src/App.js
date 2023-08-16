@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter } from "react-router-dom";
 import { MainNavigation } from "./components/MainNavigation";
-import loader from "../src/assets/images/loader.gif";
+import loader from "../src/assets/images/dharmanshu.gif";
 import { Footer } from "./components/footer";
 import { AuthWrapper } from "./context/auth";
 import Header from "./components/header";
