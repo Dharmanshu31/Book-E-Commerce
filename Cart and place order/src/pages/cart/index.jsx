@@ -138,16 +138,16 @@ const Cart = () => {
                     <div className="qty-group">
                       <Button
                         className="btn pink-btn"
-                        onClick={() => updateQuantity(cartItem, true)}
+                        onClick={() => updateQuantity(cartItem, false)}
                       >
-                        +
+                        -
                       </Button>
                       <span className="number-count">{cartItem.quantity}</span>
                       <Button
                         className="btn pink-btn"
-                        onClick={() => updateQuantity(cartItem, false)}
+                        onClick={() => updateQuantity(cartItem, true)}
                       >
-                        -
+                        +
                       </Button>
                     </div>
                     <Link onClick={() => removeItem(cartItem.id)}>Remove</Link>
